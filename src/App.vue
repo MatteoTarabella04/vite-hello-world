@@ -2,15 +2,16 @@
 export default {
   data() {
     return {
-
+      titolo: 'This is my first Vite setup',
+      messaggio: 'Hello World!!!',
     }
   }
 }
 </script>
 
 <template>
-  <h1>This is my first Vite setup</h1>
-  <strong>Hello World!!!</strong>
+  <h1>{{ titolo }}</h1>
+  <strong>{{ messaggio }}</strong>
 </template>
 
 <style></style>
